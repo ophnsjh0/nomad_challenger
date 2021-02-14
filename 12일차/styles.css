@@ -1,0 +1,138 @@
+.camera {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #81f7be;
+  width: 400px;
+  height: 400px;
+  position: relative;
+}
+
+.camera i {
+  font-size: 50px;
+  color: #151515;
+}
+
+.camera .camera-info:hover {
+  transform: translate(10px, 10px);
+  opacity: 1;
+}
+
+.camera-info {
+  position: absolute;
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #1c1c1c;
+  width: 400px;
+  height: 400px;
+  transition: all 1s ease-in-out;
+}
+
+.camera-info-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.camera-info-text {
+  font-size: 20px;
+  color: white;
+}
+
+.camera-info-text:last-child {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #f78181;
+}
+
+.camera-info-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  width: 80px;
+  height: 30px;
+  background-color: #f78181;
+  color: white;
+  font-size: 14px;
+}
+.screen {
+  overflow: hidden;
+  margin-top: 100px;
+  width: 400px;
+  height: 400px;
+}
+
+.apple-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 1s ease-in-out;
+}
+
+.apple {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5a9f2;
+  width: 400px;
+  height: 400px;
+}
+
+.apple i {
+  font-size: 50px;
+  color: #ffffff;
+}
+
+.apple-info {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c1c1c;
+  width: 400px;
+  height: 100px;
+}
+
+.apple-box:hover {
+  transform: translate(0px, -100px);
+}
+
+.apple-info-title {
+  margin-top: 10px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.apple-info-text {
+  font-size: 20px;
+  color: white;
+}
+
+.apple-info-text:last-child {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #f78181;
+}
+
+.apple-info-button {
+  margin-top: 40px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.apple-info-button-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  background-color: #f78181;
+  color: white;
+  font-size: 14px;
+}

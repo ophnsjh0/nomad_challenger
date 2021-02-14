@@ -1,0 +1,161 @@
+.phone {
+  margin-top: 50px;
+  background-color: white;
+  width: 350px;
+  height: 700px;
+  border-radius: 40px;
+  box-shadow: inset -6px -6px 15px rgba(145, 160, 180, 0.45),
+    30px 30px 40px rgba(118, 146, 180, 0.18);
+  overflow: hidden;
+  padding: 20px;
+}
+
+.screen {
+  width: 100%;
+  height: 100%;
+  background: rgb(241, 242, 246);
+  border-radius: 25px;
+  position: relative;
+  overflow: hidden;
+}
+
+.status-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  position: absolute;
+  width: 100%;
+  top: 20px;
+  font-size: 14px;
+  color: #424242;
+
+}
+
+.header {
+  padding-top: 60px;
+  width: 100%;
+}
+
+.header .header__top {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  color: #424242;
+  padding: 0px 10px;
+}
+
+.header__top-text:last-child {
+ color : #FE2E2E;
+}
+
+.header .header__photos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top :10px;
+}
+
+.header__photos .header__photo{
+  width: 145px;
+  height: 90px;
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/19/11/30/shrimp-1209744__340.jpg");
+  background-size: cover;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 14px;
+  margin : 5px 5px;
+}
+
+.header__photos .header__photo:nth-child(2){
+background-image: url("https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395__340.jpg");
+}
+
+.header__photos .header__photo:nth-child(3){
+background-image: url("https://cdn.pixabay.com/photo/2017/03/23/19/57/asparagus-2169305__340.jpg");
+}
+
+.header__photos .header__photo:nth-child(4){
+background-image: url("https://cdn.pixabay.com/photo/2017/03/31/18/02/strawberry-dessert-2191973__340.jpg");
+}
+.header__photos .header__photo-text {
+  color: #FAFAFA;
+  font-weight: bold;
+}
+
+.recipes .recipes__title{
+  margin : 20px 10px;
+  color : #424242;
+}
+
+.recipes .recipes__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin : 20px 10px;
+  background-color: white;
+  border-radius: 10px;
+  height : 50px;
+}
+
+.recipes .recipes__column {
+  margin-left : 10px;
+}
+
+.recipes .recipes__name {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+    color: #424242;
+}
+
+.recipes .recipes__num {
+  font-size : 11px;
+  color : #A4A4A4;
+}
+
+.recipes__button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right : 10px;
+}
+
+.recipes__button-text {
+  color : #FE2E2E;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom : 5px;
+}
+
+.nav {
+  position: absolute;
+  width: 100%;
+  background-color: white;
+  height: 70px;
+  bottom: -5px;
+  box-shadow: 5px 5px 40px rgba(118, 146, 180, 0.5);
+}
+
+.nav .nav__list {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.nav__list .nav__list-item {
+  color: #424242;
+  padding-top: 20px;
+  width: 12%;
+  text-align: center;
+}
+
+.nav__list .nav__list-item:nth-child(2) {
+   color :#FE2E2E;
+}

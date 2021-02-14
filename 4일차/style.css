@@ -1,0 +1,62 @@
+body {
+ height:500px;
+ display : flex;
+ justify-content: center;
+ align-items: center;
+ background-color: white;
+ }
+
+.animation{
+  width:300px;
+  height:300px;
+  display : flex;
+  flex-direction : column;
+  text-align : center;
+}
+
+#button {
+  display : block;
+  margin: auto;
+  width:120px;
+  font-size: 20px;
+  opacity: 0.7;
+  border-radius: 30px;
+  padding: 5px 40px ;
+  background-color: gray;
+  color: white;
+}
+#button:active{
+    animation : 2s button_animation ease-in-out;
+}
+
+#button:active ~ #image {
+    animation: 2s image_animation ease-in-out;
+}
+
+#image{
+  width : 100px;
+  height : 100px;
+  display : block;
+  margin: auto;
+}
+
+@keyframes button_animation {
+  form{
+    transform:none;
+  }
+  to {
+    box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25),
+      0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+    background-color: #d2d2d2;
+  }
+}
+
+@keyframes image_animation {
+  0%{
+    transform: none;
+  }
+  100%{
+    transform: rotate(135deg) scale(.7, .7);
+    border : 3px solid black;
+  }
+}
